@@ -15,10 +15,9 @@
 
 
 **Captura 3:** Dirección IP de la máquina virtual.
+<img width="1147" height="598" alt="image" src="https://github.com/user-attachments/assets/0cb56bab-3549-499d-add9-a98839d1c97f" />
+<img width="1087" height="328" alt="image" src="https://github.com/user-attachments/assets/2c425a73-5afb-4fcd-9848-4b0b7752468d" />
 
-![alt text](image1.webp)
-
-![alt text](image2.webp)
 
 **Captura 4:** Docker funcionando correctamente.
 

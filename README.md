@@ -21,7 +21,8 @@
 
 **Captura 4:** Docker funcionando correctamente.
 
-![alt text](Captura_de_pantalla_2026-08-11_101458.webp)
+<img width="1133" height="676" alt="image" src="https://github.com/user-attachments/assets/b26720a0-e212-44c2-b330-8f47a3740d62" />
+
 
 
 **Captura 5:** Primer contenedor ejecutado.

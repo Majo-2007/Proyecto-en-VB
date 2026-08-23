@@ -1,4 +1,5 @@
 # despliegue-app
+# Para conectarme : ssh marmar@127.0.0.1 -p 2222
 
 **Captura 1:** Tabla o documento con la arquitectura tecnológica seleccionada.
    

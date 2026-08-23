@@ -11,7 +11,8 @@
 
 **Captura 2:** Información del servidor Linux.
 
-![alt text](image.webp)
+<img width="1136" height="866" alt="image" src="https://github.com/user-attachments/assets/451aaec8-a3b8-4d3a-968e-0751139e389f" />
+
 
 **Captura 3:** Dirección IP de la máquina virtual.
 

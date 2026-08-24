@@ -1,4 +1,4 @@
-# despliegue-app
+<img width="1919" height="606" alt="image" src="https://github.com/user-attachments/assets/aec77a4b-d8c7-4ff1-98e9-e8b4f34e95a6" /># despliegue-app
 ### Para conectarme : ssh marmar@127.0.0.1 -p 2222
 
 **Captura 1:** Tabla o documento con la arquitectura tecnológica seleccionada.
@@ -60,49 +60,73 @@
 
 **Captura 10:** Volumen creado.
 captura 10: 1. Crea el volumen:
+<img width="520" height="234" alt="image" src="https://github.com/user-attachments/assets/84add829-78ee-43bc-baa3-9114a2689182" />
 
-![alt text](image.png)
+
+<img width="1370" height="547" alt="image" src="https://github.com/user-attachments/assets/d7177dd9-ea50-490a-bdd2-6db34a06f754" />
 
 
-![alt text](image1238127382.webp)
+**Captura 11:**  elimino las prubas que se crearon 
+<img width="843" height="169" alt="image" src="https://github.com/user-attachments/assets/d75da1d7-77eb-4d8b-80af-7938f184993a" />
 
-**Captura 11:** Prueba de persistencia.
-
-![alt text](image-2.png)
-
-- despues elimino las prubas que se crearon 
-![alt text](image-3.png)
 
 **Captura 12:** Dockerfile del frontend.
-- se muestra el docker file 
-![alt text](image-5.png)
-![alt text](image-6.png)
-- se contruye la imagen
-![alt text](image-7.png)
+
+
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/889a842f-25c2-49c4-9ad8-81fa8c06b3ca" />
+<img width="1157" height="486" alt="image" src="https://github.com/user-attachments/assets/8f845f55-6672-4ff8-bcd2-839403fd611a" />
 
 **Captura 13:** Imagen Docker construida.
-![alt text](image-8.png)
+<img width="1207" height="365" alt="image" src="https://github.com/user-attachments/assets/31d1613b-ed44-4327-93ca-cc98321172ad" />
+<img width="1919" height="512" alt="image" src="https://github.com/user-attachments/assets/bfd1dc94-7baf-4fbd-a3cd-9b0a67a08817" />
+
+
 
 **Captura 14:** Frontend funcionando dentro del contenedor.
+<img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/82d1b69b-1b1f-4cac-9406-23ad9f5f2743" />
 
-- muestra el contenedor funcionando
-![alt text](image-9.png)
-![alt text](image-10.png)
 **Captura 15:** Dockerfile del backend.
 
+<img width="1168" height="887" alt="image" src="https://github.com/user-attachments/assets/aab16270-b4fb-4dd3-b45b-75418939ffa5" />
+- Contruir la imagen
+<img width="1919" height="255" alt="image" src="https://github.com/user-attachments/assets/c0be1aad-608d-4cd1-b883-7277f7f85b36" />
+
+
+
 **Captura 16:** Imagen del backend.
+<img width="1111" height="226" alt="image" src="https://github.com/user-attachments/assets/e0ca179e-078e-4d6f-94df-f72273aa5b36" />
 
 **Captura 17:** Backend funcionando.
+<img width="1919" height="572" alt="image" src="https://github.com/user-attachments/assets/2f2d840a-c1cc-4ac8-a5a2-df61935657a7" />
+
 **Captura 18:** Contenedor de base de datos funcionando.
+<img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/3d5dc243-a228-43d4-8cac-1e7b9b1adc13" />
+
 
 **Captura 19:** Base de datos creada.
+<img width="1890" height="440" alt="image" src="https://github.com/user-attachments/assets/32faf8d9-f928-4ccc-af87-afa114091600" />
+
 
 **Captura 20:** Volumen asociado a la base de datos.
+
+<img width="1919" height="272" alt="image" src="https://github.com/user-attachments/assets/0a65815a-2fe0-41a8-b705-a18c7f6a3d96" />
+
 **Captura 21:** Configuración de conexión.
+<img width="1142" height="763" alt="image" src="https://github.com/user-attachments/assets/ca79f185-3036-4070-88b5-744dd846c3c8" />
+
+- Levantamos el compose  principal para ( frontend, backend )
+<img width="1029" height="720" alt="image" src="https://github.com/user-attachments/assets/0bf8b743-a5a7-4fd2-b92e-90b10589d9f3" />
 
 **Captura 22:** Operación de lectura.
+<img width="1870" height="353" alt="image" src="https://github.com/user-attachments/assets/911b6af5-d32b-4db0-85b6-3e41d5054d7c" />
+
+
 
 **Captura 23:** Operación de escritura.
+<img width="1499" height="293" alt="image" src="https://github.com/user-attachments/assets/84de75a7-37b1-4aa7-aec8-744e3f3a8960" />
+![Uploading image.png…]()
+
+
 
 **Captura 24:** Logs mostrando comunicación exitosa.
 **Captura 25:** Frontend funcionando.
@@ -112,6 +136,8 @@ captura 10: 1. Crea el volumen:
 **Captura 27:** Respuesta recibida desde el backend.
 **Captura 28:** Aplicación completa funcionando.
 **Captura 29:** Archivo Docker Compose.
+<img width="1919" height="322" alt="image" src="https://github.com/user-attachments/assets/44c66e7e-0f31-4f16-9e7b-19c9b8b5f5c3" />
+
 
 **Captura 30:** Todos los servicios funcionando.
 **Captura 31:** Servicios detenidos.

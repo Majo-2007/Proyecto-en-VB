@@ -314,7 +314,8 @@ Se evidencia la respuesta generada por el backend después de procesar correctam
 ---
 
 ## Captura 28: Aplicación completa funcionando
-<img width="1702" height="897" alt="image" src="https://github.com/user-attachments/assets/df102271-8bed-4938-99b5-5ae1f25170c8" />
+<img width="1022" height="522" alt="image" src="https://github.com/user-attachments/assets/f787ed8d-70cf-4783-a972-d458ad66877c" />
+
 
 
 Se comprueba el funcionamiento integrado de los diferentes componentes:

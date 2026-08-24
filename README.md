@@ -298,16 +298,23 @@ Se accede a la interfaz de la aplicación y se realiza el registro de un nuevo u
 ## Captura 26: Solicitud del frontend hacia el backend
 
 Se evidencia la solicitud enviada desde el frontend hacia la API REST del backend.
-
+> Se registran los datos en el frond
+<img width="1138" height="787" alt="image" src="https://github.com/user-attachments/assets/231f5b29-ab49-497c-a00b-b82a888bce30" />
+<img width="1917" height="903" alt="image" src="https://github.com/user-attachments/assets/c377366e-50e4-41f6-affd-48b7f2c201fc" />
 ---
 
 ## Captura 27: Respuesta recibida desde el backend
 
 Se evidencia la respuesta generada por el backend después de procesar correctamente la solicitud enviada desde el frontend.
+> Se muestra login de ¿l usuario 
+<img width="1317" height="667" alt="image" src="https://github.com/user-attachments/assets/89840b6e-8a6c-4841-bbd2-fc48f1bb66a7" />
+
 
 ---
 
 ## Captura 28: Aplicación completa funcionando
+<img width="1702" height="897" alt="image" src="https://github.com/user-attachments/assets/df102271-8bed-4938-99b5-5ae1f25170c8" />
+
 
 Se comprueba el funcionamiento integrado de los diferentes componentes:
 

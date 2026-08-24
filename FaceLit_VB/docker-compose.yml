@@ -1,0 +1,101 @@
+name: facelit
+
+services:
+
+  # ───────────────────────────── BASE DE DATOS ─────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: facelit-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-facelit-db}
+      POSTGRES_USER: ${POSTGRES_USER:-facelit_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-facelit_password}
+    ports:
+      - "${POSTGRES_PORT:-5439}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - facelit-net
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U ${POSTGRES_USER:-facelit_user} -d ${POSTGRES_DB:-facelit-db}
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ───────────────────────── MIGRACIONES (LIQUIBASE) ───────────────────────
+  # Servicio opcional bajo el perfil "tooling": aplica el changelog
+  # sobre postgres. Se ejecuta con: docker compose --profile tooling run liquibase
+  liquibase:
+    build:
+      context: ./FaceLit-DB
+      dockerfile: docker/liquibase/Dockerfile
+    image: facelit-liquibase:5.0.2
+    container_name: facelit-liquibase
+    profiles:
+      - tooling
+    depends_on:
+      postgres:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - ./FaceLit-DB:/workspace
+    networks:
+      - facelit-net
+    entrypoint:
+      - liquibase
+      - --search-path=/workspace
+      - --changeLogFile=changelog-master.yaml
+      - --classpath=/liquibase/liquibase_libs/postgresql-42.7.8.jar
+      - --url=jdbc:postgresql://postgres:5432/${POSTGRES_DB:-facelit-db}
+      - --username=${POSTGRES_USER:-facelit_user}
+      - --password=${POSTGRES_PASSWORD:-facelit_password}
+
+  # ───────────────────────────────── BACKEND ────────────────────────────────
+  backend:
+    build:
+      context: ./FaceLit-Backend
+      dockerfile: Dockerfile
+    container_name: facelit-backend
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Dentro de la red Docker el backend se conecta a "postgres" (nombre
+      # del servicio), no a localhost ni al puerto publicado en el host.
+      DB_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-facelit-db}
+      DB_USERNAME: ${POSTGRES_USER:-facelit_user}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-facelit_password}
+      JWT_SECRET: ${JWT_SECRET:-FaceLit2025$$ClaveSecretaSuperSegura#SENA@Backend!}
+      MAIL_USERNAME: ${MAIL_USERNAME:-}
+      MAIL_PASSWORD: ${MAIL_PASSWORD:-}
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    networks:
+      - facelit-net
+
+  # ──────────────────────────────── FRONTEND ────────────────────────────────
+  frontend:
+    build:
+      context: ./FaceLit
+      dockerfile: Dockerfile
+      args:
+        # IMPORTANTE: esta URL la usa el NAVEGADOR del cliente, por lo que
+        # debe ser la IP de la máquina virtual (o "localhost" si pruebas en
+        # la misma máquina), nunca el nombre interno "backend".
+        EXPO_PUBLIC_API_URL: ${FRONTEND_API_URL:-http://localhost:8080}
+    container_name: facelit-frontend
+    depends_on:
+      - backend
+    ports:
+      - "${FRONTEND_PORT:-8081}:80"
+    networks:
+      - facelit-net
+
+networks:
+  facelit-net:
+    driver: bridge
+
+volumes:
+  postgres_data:

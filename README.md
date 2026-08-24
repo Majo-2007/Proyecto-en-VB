@@ -8,7 +8,7 @@
 
 ## 1. Conexión al servidor Linux
 
-Para acceder a la máquina virtual mediante SSH se utiliza el siguiente comando:
+Para acceder a la máquina virtual mediante SSH se utiliza el siguiente comando --
 
 ```bash
 ssh marmar@127.0.0.1 -p 2222

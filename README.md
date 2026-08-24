@@ -349,24 +349,31 @@ La configuración contempla los elementos necesarios para levantar el entorno co
 ## Captura 30: Todos los servicios funcionando
 
 Se verifica que todos los servicios definidos en Docker Compose se encuentran activos y funcionando correctamente.
+<img width="1917" height="356" alt="image" src="https://github.com/user-attachments/assets/bbe9d571-a8d8-41e3-a3c3-8e7fe92eb42b" />
+
 
 ---
 
 ## Captura 31: Servicios detenidos
 
 Se detienen los servicios para comprobar el correcto funcionamiento de las operaciones de administración del entorno Docker.
+<img width="1917" height="370" alt="image" src="https://github.com/user-attachments/assets/08924c39-fc1a-478c-a23a-c8dafcb418ec" />
+
 
 ---
 
 ## Captura 32: Servicios recuperados
 
 Se vuelven a iniciar los servicios y se comprueba que la aplicación puede recuperarse correctamente después de haber sido detenida.
+<img width="1917" height="467" alt="image" src="https://github.com/user-attachments/assets/78681c2f-894b-4e74-aa4b-5fc4387ad833" />
+
 
 ---
 
 ## Captura 33: Servicios reconstruidos
 
 Se reconstruyen los servicios mediante Docker para comprobar que las imágenes pueden generarse nuevamente y que la aplicación continúa funcionando correctamente.
+<img width="1865" height="990" alt="image" src="https://github.com/user-attachments/assets/2fa098b7-d2dc-4ab7-a00f-76ceae746f87" />
 
 ---
 
@@ -375,6 +382,9 @@ Se reconstruyen los servicios mediante Docker para comprobar que las imágenes p
 ## Captura 34: Aplicación funcionando desde el equipo anfitrión
 
 Se verifica el acceso a la aplicación desde el equipo anfitrión donde se encuentra ejecutándose la máquina virtual.
+<img width="1817" height="1011" alt="image" src="https://github.com/user-attachments/assets/80a3a31e-d51a-48d1-a28b-5cae780e8317" />
+
+
 
 ---
 
@@ -383,6 +393,7 @@ Se verifica el acceso a la aplicación desde el equipo anfitrión donde se encue
 Finalmente, se comprueba el acceso a la aplicación desde otro equipo conectado a la misma red interna.
 
 Esta prueba permite verificar que los servicios publicados por el servidor pueden ser consumidos desde otro dispositivo de la intranet.
+<img width="474" height="1600" alt="image" src="https://github.com/user-attachments/assets/3250111c-f461-4e47-a450-de3a31f2b4e6" />
 
 ---
 

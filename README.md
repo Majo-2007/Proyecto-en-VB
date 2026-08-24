@@ -47,13 +47,16 @@
 
 **Captura 8:** Portainer funcionando.
 
-![alt text](image12323.webp)
+<img width="1919" height="709" alt="image" src="https://github.com/user-attachments/assets/338791a0-4173-47b6-b2ab-8dd3a2db1934" />
+
 
 **Captura 9:** Administración del entorno Docker desde Portainer.
 
-![alt text](Captura_de_pantalla_2026-08-14_090632.webp)
+<img width="1902" height="938" alt="image" src="https://github.com/user-attachments/assets/fde80679-d420-42c6-b32c-8611674db018" />
 
-![alt text](sadjfhaikdshaksdsa.webp)
+
+<img width="1828" height="914" alt="image" src="https://github.com/user-attachments/assets/9686ede6-9261-44ba-9204-d8a8315fd07c" />
+
 
 **Captura 10:** Volumen creado.
 captura 10: 1. Crea el volumen:

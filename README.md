@@ -32,7 +32,6 @@
 <img width="767" height="382" alt="image" src="https://github.com/user-attachments/assets/ee377a52-d4af-4698-9038-c32fd00fae4f" />
 <img width="1594" height="948" alt="image" src="https://github.com/user-attachments/assets/a9cd7987-b6cf-473d-aed7-65e8493a9f3e" />
 <img width="1276" height="660" alt="image" src="https://github.com/user-attachments/assets/0294bb65-61df-44b7-9778-bd5ff3b97928" />
-<img width="1613" height="702" alt="image" src="https://github.com/user-attachments/assets/4f476e58-d0f8-4187-b18e-14eefa59fbf1" />
 
 
 
@@ -43,11 +42,11 @@
 
 **Captura 7:** Administración de los contenedores.
 
-![alt text](image6.webp)
+<img width="1849" height="917" alt="image" src="https://github.com/user-attachments/assets/df1aad86-55af-4205-a941-92c09a8e646c" />
+<img width="1090" height="917" alt="image" src="https://github.com/user-attachments/assets/469cb7b7-4a77-480b-8aa7-dc9f66c664af" />
+<img width="1732" height="985" alt="image" src="https://github.com/user-attachments/assets/a2e7cd0d-d5d0-4748-b362-0663b052b2a6" />
 
-![alt text](image7.webp)
 
-![alt text](image8.webp)
 
 **Captura 8:** Portainer funcionando.
 

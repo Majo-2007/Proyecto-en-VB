@@ -31,14 +31,11 @@
 
 <img width="767" height="382" alt="image" src="https://github.com/user-attachments/assets/ee377a52-d4af-4698-9038-c32fd00fae4f" />
 <img width="1594" height="948" alt="image" src="https://github.com/user-attachments/assets/a9cd7987-b6cf-473d-aed7-65e8493a9f3e" />
-<img width="1276" height="660" alt="image" src="https://github.com/user-attachments/assets/0294bb65-61df-44b7-9778-bd5ff3b97928" />
-
-
 
 
 **Captura 6:** Servicio web funcionando.
 
-![alt text](image5.webp)
+<img width="1276" height="660" alt="image" src="https://github.com/user-attachments/assets/0294bb65-61df-44b7-9778-bd5ff3b97928" />
 
 **Captura 7:** Administración de los contenedores.
 

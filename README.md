@@ -23,6 +23,8 @@
 
 <img width="1133" height="676" alt="image" src="https://github.com/user-attachments/assets/b26720a0-e212-44c2-b330-8f47a3740d62" />
 
+**Captura 4.1:** Todo el proyecto ejecutando.
+<img width="959" height="414" alt="image" src="https://github.com/user-attachments/assets/a0fa0cb7-3b74-4dbf-bebb-ac09c2ac1a7a" />
 
 
 **Captura 5:** Primer contenedor ejecutado.

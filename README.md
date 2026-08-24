@@ -300,7 +300,8 @@ Se accede a la interfaz de la aplicación y se realiza el registro de un nuevo u
 Se evidencia la solicitud enviada desde el frontend hacia la API REST del backend.
 > Se registran los datos en el frond
 <img width="1138" height="787" alt="image" src="https://github.com/user-attachments/assets/231f5b29-ab49-497c-a00b-b82a888bce30" />
-<img width="1917" height="903" alt="image" src="https://github.com/user-attachments/assets/c377366e-50e4-41f6-affd-48b7f2c201fc" />
+<img width="1091" height="536" alt="image" src="https://github.com/user-attachments/assets/59aacd33-3d93-4482-b95e-312599d3e459" />
+
 ---
 
 ## Captura 27: Respuesta recibida desde el backend
